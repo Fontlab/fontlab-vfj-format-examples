@@ -1,0 +1,79 @@
+name: Validate VFJ corpus against schema
+
+# Validates every .vfj in corpus/ against vfj.bundle.schema.json from the
+# fontlab-vfj-file-format-spec sibling repository.
+#
+# The schema lives in a separate private repo.  This workflow clones it with a
+# deploy token (SPEC_REPO_TOKEN secret) when available.  If the secret is
+# absent the validation step is skipped with a notice — the corpus CI remains
+# green so that contributors without access to the spec repo can still open PRs.
+#
+# To wire up the secret:
+#   1. Create a fine-grained Personal Access Token (or a Deploy Key) with
+#      read-only access to github.com/Fontlab/fontlab-vfj-file-format-spec.
+#   2. Add it as a repository secret named SPEC_REPO_TOKEN.
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "corpus/**"
+      - "validate.py"
+      - "known_failures.txt"
+      - ".github/workflows/validate.yml"
+  pull_request:
+    paths:
+      - "corpus/**"
+      - "validate.py"
+      - "known_failures.txt"
+      - ".github/workflows/validate.yml"
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Validate corpus (lenient + allow-known-failures)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out corpus repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install --quiet jsonschema referencing
+
+      # Clone the spec repo (depth-1) using the deploy token when available.
+      # The schema is at schema/vfj.bundle.schema.json inside that repo.
+      # If SPEC_REPO_TOKEN is not set we skip validation with a notice.
+      - name: Clone spec repo (requires SPEC_REPO_TOKEN secret)
+        id: clone_spec
+        if: ${{ secrets.SPEC_REPO_TOKEN != '' }}
+        env:
+          SPEC_REPO_TOKEN: ${{ secrets.SPEC_REPO_TOKEN }}
+        run: |
+          git clone --depth 1 \
+            "https://x-access-token:${SPEC_REPO_TOKEN}@github.com/Fontlab/fontlab-vfj-file-format-spec.git" \
+            /tmp/fontlab-vfj-file-format-spec
+          echo "schema_path=/tmp/fontlab-vfj-file-format-spec/schema/vfj.bundle.schema.json" >> "$GITHUB_OUTPUT"
+
+      - name: Skip notice (no SPEC_REPO_TOKEN)
+        if: ${{ secrets.SPEC_REPO_TOKEN == '' }}
+        run: |
+          echo "::notice::SPEC_REPO_TOKEN secret is not set — skipping schema validation."
+          echo "To enable validation, add a read-only deploy token for"
+          echo "github.com/Fontlab/fontlab-vfj-file-format-spec as SPEC_REPO_TOKEN."
+
+      # Run lenient validation + allow known failures so the gate is always
+      # green for the catalogued divergences (see README.md and known_failures.txt).
+      # Use --strict here (and remove --allow-known-failures) once the spec-side
+      # schema fixes for KD-1 through KD-22 land.
+      - name: Validate corpus (lenient, allow known failures)
+        if: ${{ secrets.SPEC_REPO_TOKEN != '' }}
+        env:
+          VFJ_SCHEMA: ${{ steps.clone_spec.outputs.schema_path }}
+        run: |
+          python validate.py --allow-known-failures
