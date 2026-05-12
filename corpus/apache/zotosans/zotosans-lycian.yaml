@@ -1,0 +1,12 @@
+full_name: Zoto Sans Lycian
+family_name: Zoto Sans Lycian
+copyright: Copyright 2012 Google Inc. All Rights Reserved.
+license: Apache
+description: Reference sans font for the Lycian script
+categories:
+- Reference
+- Sans
+scripts:
+- Lycian
+sample_text: 𐊜𐊀𐊖𐊙𐊋𐊊 𐊂𐊐𐊛𐊓𐊆𐊑 𐊔𐊗𐊄𐊍𐊘𐊃 𐊕𐊌𐊒𐊉𐊁𐊚 𐊈𐊅𐊎𐊏𐊇
+download_large: false

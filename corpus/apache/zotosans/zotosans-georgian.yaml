@@ -1,0 +1,13 @@
+full_name: Zoto Sans Georgian
+family_name: Zoto Sans Georgian
+copyright: Copyright 2012 Google Inc. All Rights Reserved.
+license: Apache
+description: Reference sans font for the Georgian script
+categories:
+- Reference
+- Sans
+scripts:
+- Georgian
+- Armenian
+sample_text: ႣჀႽჂ ႭႸႺႱ ⴇზⴂⴄჺⴊ ⴊფაⴥⴡⴌ ⴤჟღⴄსⴇ
+download_large: false

@@ -1,0 +1,12 @@
+full_name: Zoto Sans Imperial Aramaic
+family_name: Zoto Sans Imperial Aramaic
+copyright: Copyright 2011 Google Inc. All Rights Reserved.
+license: Apache
+description: Reference sans font for the Imperial Aramaic script
+categories:
+- Reference
+- Sans
+scripts:
+- Imperial Aramaic
+sample_text: 𐡑𐡀𐡈𐡉𐡄𐡁 𐡕𐡇𐡋𐡍𐡔𐡓 𐡆𐡎𐡅𐡏𐡒𐡂 𐡌𐡊𐡐𐡃
+download_large: false

@@ -1,0 +1,13 @@
+full_name: Zoto Sans Symbols
+family_name: Zoto Sans Symbols
+copyright: Copyright 2013 Google Inc. All Rights Reserved.
+license: Apache
+description: Reference symbol font
+categories:
+- Reference
+- Symbol
+scripts:
+- Braille
+- Greek
+sample_text: ⛈꜐➊𝐛ℐ𝛶 ⎶𝜷➇⠭𝈷⩛ 🁁𝒱⍹𝞝𝛍⓾ ⎠ℼ🂧⤖⦖⏕ ⍃𝛕⪃𝑬𝜀⥆
+download_large: false

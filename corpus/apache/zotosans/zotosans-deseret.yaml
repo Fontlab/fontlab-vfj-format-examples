@@ -1,0 +1,12 @@
+full_name: Zoto Sans Deseret
+family_name: Zoto Sans Deseret
+copyright: Copyright 2013 Google Inc. All Rights Reserved.
+license: Apache
+description: Reference sans font for the Deseret script
+categories:
+- Reference
+- Sans
+scripts:
+- Deseret
+sample_text: 𐐈𐐔𐐟𐐚𐐢𐐌 𐐜𐐀𐐒𐐖𐐈𐐇 𐐹𐐷𐐮𐑅𐐫𐐵 𐐬𐐩𐐵𐐾𐑌𐐯 𐑏𐐸𐐬𐐽𐐱𐑏
+download_large: false

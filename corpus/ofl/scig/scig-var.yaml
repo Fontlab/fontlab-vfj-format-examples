@@ -1,0 +1,15 @@
+full_name: GG Scig OFL Regular
+family_name: GG Scig OFL
+copyright: Copyright 2019, 2020 Font Detective LLC. https://github.com/tphinney/science-gothic
+license: OFL
+description: Rectangular sanserif design with weight, width, slant and contrast axes
+categories:
+- Variable
+- Sans
+- Multilingual
+- Italic
+scripts:
+- Latin
+- Cyrillic
+sample_text: HELLO ĠRŦȂǺẄ square ǫpøåĝð ąậaģbw
+download_large: true

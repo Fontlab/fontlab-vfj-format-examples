@@ -1,0 +1,12 @@
+full_name: Zoto Sans Kharoshthi
+family_name: Zoto Sans Kharoshthi
+copyright: Copyright 2013 Google Inc. All Rights Reserved.
+license: Apache
+description: Reference sans font for the Kharoshthi script
+categories:
+- Reference
+- Sans
+scripts:
+- Kharoshthi
+sample_text: 𐨙𐨥𐨣𐨦𐨮𐨤 𐨀𐨬𐨐𐨞𐨖𐨠 𐨡𐨟𐨳𐨛𐨰𐨲 𐨯𐨜𐨭𐨒𐨫𐨱 𐨨𐨗𐨢𐨑𐨪𐨧
+download_large: false

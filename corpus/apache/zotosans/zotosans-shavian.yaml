@@ -1,0 +1,12 @@
+full_name: Zoto Sans Shavian
+family_name: Zoto Sans Shavian
+copyright: Copyright 2011 Google Inc. All Rights Reserved.
+license: Apache
+description: Reference sans font for the Shavian script
+categories:
+- Reference
+- Sans
+scripts:
+- Shavian
+sample_text: 𐑙𐑷𐑺𐑚𐑶𐑲 𐑳𐑴𐑮𐑤𐑜𐑬 𐑟𐑞𐑥𐑼𐑣𐑭 𐑔𐑵𐑰𐑸𐑻𐑖 𐑢𐑹𐑾𐑿𐑗𐑑
+download_large: false

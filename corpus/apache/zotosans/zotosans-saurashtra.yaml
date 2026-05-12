@@ -1,0 +1,12 @@
+full_name: Zoto Sans Saurashtra
+family_name: Zoto Sans Saurashtra
+copyright: Copyright 2013 Google Inc. All Rights Reserved.
+license: Apache
+description: Reference sans font for the Saurasthra script
+categories:
+- Reference
+- Sans
+scripts:
+- Saurashtra
+sample_text: ꢘꢉꢓꢛꢤꢔ ꢧꢰꢕꢋꢙꢩ ꢮꢬꢊꢑꢡꢨ ꢃꢂꢫꢖꢞꢣ ꢲꢦꢯꢌꢠꢱ
+download_large: false

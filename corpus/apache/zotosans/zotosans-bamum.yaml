@@ -1,0 +1,12 @@
+full_name: Zoto Sans Bamum
+family_name: Zoto Sans Bamum
+copyright: Copyright 2013 Google Inc. All Rights Reserved.
+license: Apache
+description: Reference sans font for the Bamum script
+categories:
+- Reference
+- Sans
+scripts:
+- Bamum
+sample_text: 𖦺ꚯꛀꛂ𖡖𖠟 𖢇𖧶𖤣𖡎𖢯𖧷 𖦢𖣙ꛚ𖥌ꚴ𖢏 𖣮𖨅𖦿𖧀𖥵𖢱 𖠓ꛆ𖢴ꛎ𖣯𖦊
+download_large: false

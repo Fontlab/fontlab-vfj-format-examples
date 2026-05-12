@@ -1,0 +1,12 @@
+full_name: Zoto Sans Old Italic
+family_name: Zoto Sans Old Italic
+copyright: Copyright 2012 Google Inc. All Rights Reserved.
+license: Apache
+description: Reference sans font for the Old Italic script
+categories:
+- Reference
+- Sans
+scripts:
+- Old Italic
+sample_text: 𐌏𐌉𐌆𐌊𐌙𐌜 𐌇𐌞𐌕𐌎𐌀𐌚 𐌃𐌁𐌓𐌅𐌋𐌔 𐌘𐌌𐌛𐌖𐌍𐌈 𐌄𐌝𐌐𐌂𐌗𐌑
+download_large: false

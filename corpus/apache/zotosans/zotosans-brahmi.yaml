@@ -1,0 +1,12 @@
+full_name: Zoto Sans Brahmi
+family_name: Zoto Sans Brahmi
+copyright: Copyright 2013 Google Inc. All Rights Reserved.
+license: Apache
+description: Reference sans font for the Brahmi script
+categories:
+- Reference
+- Sans
+scripts:
+- Brahmi
+sample_text: 𑀤𑀭𑀬𑀥𑀰𑀉 𑀐𑀨𑀘𑀟𑀫𑀕 𑀗𑀓𑀷𑀣𑀲𑀳 𑀃𑀎𑀒𑀍𑀌𑀦 𑀡𑀋𑀚𑀑𑀊𑀇
+download_large: false

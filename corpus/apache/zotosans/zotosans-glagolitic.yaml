@@ -1,0 +1,12 @@
+full_name: Zoto Sans Glagolitic
+family_name: Zoto Sans Glagolitic
+copyright: Copyright 2012 Google Inc. All Rights Reserved.
+license: Apache
+description: Reference sans font for the Glagolitic script
+categories:
+- Reference
+- Sans
+scripts:
+- Glagolitic
+sample_text: ⰋⰤⰗⰁⰇⰏ ⰆⰥⰃⰒⰛⰍ ⰵⱍⰴⱑⰰⱎ ⱐⱏⱀⱗⱚⱑ ⰺⰽⱆⱊⱇⱌ
+download_large: false

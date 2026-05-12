@@ -1,0 +1,12 @@
+full_name: Zoto Sans Old Turkic
+family_name: Zoto Sans Old Turkic
+copyright: Copyright 2013 Google Inc. All Rights Reserved.
+license: Apache
+description: Reference sans font for the Old Turkic script
+categories:
+- Reference
+- Sans
+scripts:
+- Old Turkic
+sample_text: 𐰥𐱁𐰶𐰢𐰯𐰐 𐰋𐰪𐰚𐰈𐰛𐰗 𐰳𐰝𐰖𐰊𐱆𐰽 𐰬𐰺𐰨𐰘𐰟𐰦 𐱅𐰼𐰁𐰹𐰙𐱀
+download_large: false

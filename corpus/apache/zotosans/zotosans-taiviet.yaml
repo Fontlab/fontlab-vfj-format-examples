@@ -1,0 +1,13 @@
+full_name: Zoto Sans Tai Viet
+family_name: Zoto Sans Tai Viet
+copyright: Copyright 2013 Google Inc. All Rights Reserved.
+license: Apache
+description: Reference sans font for the Tai Viet script
+categories:
+- Reference
+- Sans
+scripts:
+- Tai Viet
+- Latin
+sample_text: ꪕꪮꪃꪺꪄꪪ ꪅꪻꪍꪢꪠꪩ ꪔꪆꪶꪭꪯꪋ ꪇꪽꫛꪟꪛꫝ ꪒꪘꪚꪉꪌꪊ
+download_large: false
