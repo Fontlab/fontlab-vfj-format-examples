@@ -1,11 +1,8 @@
-# known_failures.txt — corpus files that are expected to fail strict validation.
+# this_file: known_failures.txt
 #
-# In lenient mode (the default) ALL 130 files currently pass because every
-# schema error is classified against a known divergence (KD-1 through KD-22).
-# This file would list files that have UNCLASSIFIED errors (i.e. real problems
-# not yet accounted for in validate.py's KNOWN_DIVERGENCES table).
+# Historical placeholder for strict validation exceptions.
 #
-# As of 2026-05-12: lenient mode → 130 PASS / 0 FAIL (no entries needed).
-#
-# Format: one corpus-relative path per line (e.g. corpus/cc0/baar/baar.vfj).
-# Lines starting with # are comments.
+# As of 2026-05-13, KD-1..KD-22 and KD-99 are closed in the VFJ schema,
+# and the complete 130-file corpus is expected to pass strict Draft 2020-12
+# validation. Keep this file empty of paths unless a newly discovered,
+# documented regression needs temporary quarantine.

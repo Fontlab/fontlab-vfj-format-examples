@@ -1,0 +1,15 @@
+corpus/apache/boto/boto-var.vfj
+corpus/apache/zotoemoji/zoto-emoji.vfj
+corpus/apache/zotosans/zotosans-balinese.vfj
+corpus/apache/zotosans/zotosans-brahmi.vfj
+corpus/apache/zotosans/zotosans-deseret.vfj
+corpus/apache/zotosans/zotosans-hebrew.vfj
+corpus/apache/zotosans/zotosans-javanese.vfj
+corpus/apache/zotosans/zotosans-olchiki.vfj
+corpus/fontlab-eula/cal-family-starter-instances.vfj
+corpus/fontlab-eula/cal-frankenfont.vfj
+corpus/fontlab-eula/cal-kerning-exceptions.vfj
+corpus/fontlab-eula/cal-ps-hinting.vfj
+corpus/fontlab-eula/cal-reusing-shapes-1.vfj
+corpus/fontlab-eula/cal-style-groups.vfj
+corpus/ofl/tiro/STIXTwoTextVF-Roman.vfj

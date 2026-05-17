@@ -1,0 +1,17 @@
+corpus/apache/cafe/cafe.vfj
+corpus/apache/fest/fest.vfj
+corpus/apache/hint/hint.vfj
+corpus/apache/zotoemoji/zoto-emoji.vfj
+corpus/cc0/baar/baar.vfj
+corpus/cc0/deco/deco.vfj
+corpus/cc0/medi/medi.vfj
+corpus/cc0/ocra/ocra.vfj
+corpus/cc0/pixa/pixa.vfj
+corpus/cc0/star/star.vfj
+corpus/cc0/veni/veni.vfj
+corpus/cc0/vize/vize.vfj
+corpus/ofl/ptit/ptit.vfj
+corpus/ofl/stroke-chan/stroke-chan.vfj
+corpus/ofl/stroke-grot/stroke-grot.vfj
+corpus/ofl/tiro/Castoro-Italic.vfj
+corpus/ofl/tiro/Castoro-Regular.vfj

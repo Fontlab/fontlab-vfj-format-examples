@@ -38,6 +38,36 @@ The corpus is organized by license type in the `corpus/` directory:
 
 For a complete list of all `.vfj` files, see `vfj-files.txt` in the repository root.
 
+## Corpus subsets and coverage tooling
+
+The `subsets/` directory contains curated manifests for fast downstream checks:
+
+- `minimal.txt` — small smoke-test fixtures across simple license buckets
+- `static.txt` and `variable.txt` — static and variable-font coverage
+- `complex.txt` and `edge-cases.txt` — richer fixtures for parser and round-trip stress
+- `legacy.txt` — FontLab tutorial/EULA examples that exercise legacy workflows
+- `templated.txt` — intentionally empty until real templated VFJ fixtures are supplied
+
+Helper scripts live in `scripts/`:
+
+```bash
+# Run strict validation for the full corpus.
+python scripts/run_validation.py --schema /path/to/vfj.bundle.schema.json
+
+# Validate one subset manifest.
+python scripts/run_subset.py variable --schema /path/to/vfj.bundle.schema.json
+
+# Generate feature-coverage metadata for CI dashboards or downstream planning.
+python scripts/generate_coverage_report.py --output feature-coverage.json
+
+# Run an external parity command once downstream tools provide baselines.
+python scripts/parity_test.py "my-parity-tool --input {vfj}" --output parity-results.json
+```
+
+`generate_coverage_report.py` derives mechanical coverage metadata from VFJ content.
+Curated descriptions and authoritative parity baselines still need FontLab product-team
+input.
+
 ## Format Information
 
 VFJ (Variable Font JSON) is FontLab's native JSON-based font format that serves as:
@@ -54,7 +84,7 @@ for detailed copyright and licensing information.
 
 ## Schema Validation
 
-The corpus is validated against
+The corpus is validated in strict mode against
 [`schema/vfj.bundle.schema.json`](https://github.com/Fontlab/fontlab-vfj-file-format-spec/blob/main/schema/vfj.bundle.schema.json)
 from the [`fontlab-vfj-file-format-spec`](https://github.com/Fontlab/fontlab-vfj-file-format-spec)
 repository using `validate.py` in this repo.
@@ -71,55 +101,33 @@ python validate.py --schema /path/to/fontlab-vfj-file-format-spec/schema/vfj.bun
 # Or via the VFJ_SCHEMA environment variable:
 VFJ_SCHEMA=/path/to/vfj.bundle.schema.json python validate.py
 
-# Strict mode (fails on ALL schema errors, not just unclassified ones):
-python validate.py --strict
-
 # Requirements:
 pip install jsonschema referencing
 # or:
 pip install -r requirements.txt
 ```
 
-`validate.py` exits 0 on success, 1 on failures, and 2 if the schema cannot be
-found (so CI without the sibling repo checked out degrades gracefully with a notice).
+`validate.py` exits 0 when all VFJ files pass strict validation, 1 on validation
+failures, and 2 if the schema cannot be found.
 
 ### CI
 
-A GitHub Actions workflow (`.github/workflows/validate.yml`) runs `validate.py`
-in lenient mode on every push or pull request that touches `corpus/`, `validate.py`,
-or `known_failures.txt`.  The workflow clones the spec repo using a `SPEC_REPO_TOKEN`
-secret; if that secret is absent, the validation step is skipped with a notice.
+A GitHub Actions workflow (`.github/workflows/validate.yml`) runs strict corpus
+validation on every push or pull request that touches the corpus, validator,
+manifest, dependency list, or workflow. The workflow clones the private spec repo
+using a `SPEC_REPO_TOKEN` secret; if that secret is absent, validation is skipped
+with an explicit notice rather than silently running against a stale schema.
 
-### Known schema-vs-corpus divergences
+### Schema drift status
 
-As of 2026-05-12, **all 130 files pass in lenient mode** (0 unclassified errors).
-In strict mode, all 130 files fail — every error is classified against a known
-divergence (KD-1 through KD-22 in `validate.py`).  The total strict error count is
-~20 000 (mostly element `anyOf` failures across the 72-file Zotosans set).
+As of 2026-05-13, the historical KD-1 through KD-22 and KD-99 schema-vs-corpus
+divergences are closed in `fontlab-vfj-file-format-spec`: all 130 VFJ files are
+expected to pass strict Draft 2020-12 validation. `known_failures.txt` is retained
+only as an empty quarantine placeholder for future temporary regressions.
 
-These divergences reflect genuine gaps between the current `vfj.bundle.schema.json`
-(which models the ideal/strict VFJ format) and real FontLab-9-emitted files.  They
-are tracked in the spec repo's `drift.yaml` and `TODO.md §P4`.  **Do not loosen the
-schema here** — fixes belong in `fontlab-vfj-file-format-spec`.
-
-| ID | Files affected | Description |
-|---|---|---|
-| KD-1 | 77 | `unicodes[]` contains integers (codepoints); schema requires strings |
-| KD-2 | 83 | `inktrapLen` additional property on `fontMaster` (not yet in schema) |
-| KD-3 | 27 | `advanceWidth` additional property on layer |
-| KD-4 | 16 | `axisInstances` additional property on axis entry |
-| KD-5 | 60 | element/hint/guideline `anyOf` too narrow (string `elementData` refs, etc.) |
-| KD-6 | 31 | `expressionsUpdated` is `0`/`1` (bool-ish int); schema type mismatch |
-| KD-7 | 16 | `openTypeFeatures` entries missing required `feature` key |
-| KD-8 | 12 | anchor missing required `point` property |
-| KD-9 | 5 | `curveTension` additional property |
-| KD-10 | 4 | `appearance` additional property |
-| KD-11 | 4–7 | `bold` additional property |
-| KD-12 | 2 | `fontNote` additional property on font |
-| KD-13 | 2 | `variables` field type mismatch on `fontMaster` (array vs object) |
-| KD-14 | 2 | `other_name` additional property |
-| KD-15–22 | 1 each | `monospaced`, `italic_angle`, `canInterpolate`, `exprX`/`exprY`, `cloud`, `mark`, `layer`, mask required fields |
-| KD-99 | 7 | Uncatalogued additional properties (to be individually identified) |
+If strict validation fails, treat it as a regression in either the corpus fixture
+or the VFJ schema and fix it in the owning repository. Do not reintroduce lenient
+classification in this examples repo.
 
 ## Notes
 

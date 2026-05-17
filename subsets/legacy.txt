@@ -1,0 +1,12 @@
+corpus/fontlab-eula/cal-cleaning-paths.vfj
+corpus/fontlab-eula/cal-curve-tension.vfj
+corpus/fontlab-eula/cal-curve-types.vfj
+corpus/fontlab-eula/cal-delta-filter-final.vfj
+corpus/fontlab-eula/cal-delta-filter-start.vfj
+corpus/fontlab-eula/cal-diacritic-height.vfj
+corpus/fontlab-eula/cal-family-starter.vfj
+corpus/fontlab-eula/cal-family-starter-instances.vfj
+corpus/fontlab-eula/cal-kerning-exceptions.vfj
+corpus/fontlab-eula/cal-ps-hinting.vfj
+corpus/fontlab-eula/cal-weight-axis.vfj
+corpus/fontlab-eula/cal-width-axis.vfj

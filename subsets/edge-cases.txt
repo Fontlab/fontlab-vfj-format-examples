@@ -1,0 +1,12 @@
+corpus/apache/zotosans/zotosans-balinese.vfj
+corpus/apache/zotosans/zotosans-brahmi.vfj
+corpus/apache/zotosans/zotosans-gothic.vfj
+corpus/apache/zotosans/zotosans-hebrew.vfj
+corpus/apache/zotosans/zotosans-rejang.vfj
+corpus/apache/zotosans/zotosans-samaritan.vfj
+corpus/fontlab-eula/cal-cleaning-paths.vfj
+corpus/fontlab-eula/cal-delta-filter-final.vfj
+corpus/fontlab-eula/cal-delta-filter-start.vfj
+corpus/fontlab-eula/cal-minus-overlap.vfj
+corpus/fontlab-eula/cal-non-destructive-transform.vfj
+corpus/fontlab-eula/cal-replacing-segments.vfj

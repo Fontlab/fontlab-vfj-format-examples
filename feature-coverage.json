@@ -1,0 +1,2762 @@
+{
+  "feature_tags": [
+    "aalt",
+    "abvm",
+    "abvs",
+    "akhn",
+    "blwf",
+    "blwm",
+    "blws",
+    "c2sc",
+    "calt",
+    "case",
+    "ccmp",
+    "clig",
+    "cpsp",
+    "cv01",
+    "cv02",
+    "cv03",
+    "dist",
+    "dlig",
+    "dnom",
+    "fina",
+    "frac",
+    "half",
+    "haln",
+    "init",
+    "isol",
+    "kern",
+    "liga",
+    "lnum",
+    "locl",
+    "mark",
+    "medi",
+    "mkmk",
+    "nukt",
+    "numr",
+    "onum",
+    "ordn",
+    "pnum",
+    "pref",
+    "pstf",
+    "psts",
+    "rlig",
+    "salt",
+    "sinf",
+    "smcp",
+    "ss01",
+    "ss02",
+    "ss03",
+    "ss04",
+    "ss05",
+    "ss06",
+    "ss07",
+    "subs",
+    "sups",
+    "tnum",
+    "unic",
+    "zero",
+    "zz01",
+    "zz02",
+    "zz03",
+    "zz04",
+    "zz05",
+    "zz06",
+    "zz07",
+    "zz08",
+    "zz09",
+    "zz10",
+    "zz11"
+  ],
+  "files": [
+    {
+      "counts": {
+        "anchor_markers": 23192,
+        "axis_markers": 3,
+        "builder_markers": 0,
+        "component_markers": 34996,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 13,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "c2sc",
+        "ccmp",
+        "cpsp",
+        "dlig",
+        "dnom",
+        "frac",
+        "liga",
+        "lnum",
+        "locl",
+        "mark",
+        "mkmk",
+        "numr",
+        "onum",
+        "pnum",
+        "salt",
+        "smcp",
+        "ss01",
+        "ss02",
+        "ss03",
+        "ss04",
+        "ss05",
+        "ss06",
+        "ss07",
+        "tnum",
+        "unic"
+      ],
+      "is_variable": true,
+      "license_bucket": "apache",
+      "path": "corpus/apache/boto/boto-var.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 49,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 338,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 156,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "kern"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/cafe/cafe.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 331,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 189,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "aalt",
+        "frac",
+        "kern",
+        "liga",
+        "ordn",
+        "sups"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/fest/fest.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 53,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 336,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 183,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "kern"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/hint/hint.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 4,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotoemoji/zoto-emoji.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 649,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 1129,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "fina",
+        "init",
+        "isol",
+        "liga",
+        "locl",
+        "mark",
+        "medi",
+        "mkmk",
+        "rlig"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zoto-kufiarabic.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 4,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "kern",
+        "liga"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-armenian.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 2,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "liga"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-avestan.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 122,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 46,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "dist",
+        "mark",
+        "mkmk"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-balinese.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 82,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 1,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "mark"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-bamum.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 50,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 5,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "mark",
+        "mkmk"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-batak.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 68,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 30,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "dist",
+        "mark",
+        "mkmk"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-brahmi.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 26,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 54,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "liga",
+        "mark"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-buginese.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 15,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 7,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "mark"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-buhid.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 917,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "salt"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-canadianaboriginal.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-carian.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 22,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "clig",
+        "liga"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-cham.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "kern"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-cherokee.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 158,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 5,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "mark",
+        "mkmk"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-coptic.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 129,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-cuneiform.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 3,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-cypriot.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-deseret.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 233,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-egyptianhieroglyphs.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 456,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 23,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "kern",
+        "mark"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-ethiopic.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "kern"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-georgian.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-glagolitic.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 34,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 5,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "mark"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-gothic.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 85,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 271,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "abvm",
+        "abvs",
+        "blwf",
+        "blwm",
+        "blws",
+        "dist",
+        "half",
+        "haln",
+        "nukt",
+        "pstf"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-gurmukhi.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 12,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 9,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "mark",
+        "salt"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-hanunoo.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 130,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 112,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "dlig",
+        "kern",
+        "liga",
+        "mark",
+        "salt"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-hebrew.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 169,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 912,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "calt",
+        "ccmp",
+        "dist",
+        "fina",
+        "init",
+        "isol",
+        "kern",
+        "liga",
+        "mark",
+        "medi",
+        "mkmk"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-historic.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 2,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-imperialaramaic.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 10,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "kern"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-inscriptionalpahlavi.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 10,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "kern"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-inscriptionalparthian.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 106,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 39,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "dist",
+        "kern",
+        "liga",
+        "mark",
+        "mkmk",
+        "salt"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-javanese.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 38,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 6,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "mark"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-kayahli.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 60,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 4,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "dist",
+        "mark",
+        "mkmk"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-kharoshthi.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 114,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "abvs",
+        "blwf",
+        "clig",
+        "pref",
+        "pstf"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-khmer.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 101,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "liga",
+        "rlig",
+        "zz01",
+        "zz02",
+        "zz03",
+        "zz04",
+        "zz05",
+        "zz06",
+        "zz07",
+        "zz08",
+        "zz09",
+        "zz10",
+        "zz11"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-lao.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 39,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 4,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "mark",
+        "mkmk"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-limbu.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 50,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-linearb.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 9,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-lisu.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-lycian.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-lydian.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 122,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 25,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "calt",
+        "fina",
+        "init",
+        "isol",
+        "mark",
+        "medi"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-mandaic.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 52,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 4,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "dist",
+        "mark"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-meeteimayek.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 1320,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "fina",
+        "init",
+        "isol",
+        "medi",
+        "rlig"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-mongolian.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 24,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "dist"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-newtailue.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 141,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 3,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "fina",
+        "init",
+        "mark",
+        "medi"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-nko.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-ogham.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 4,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-olchiki.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 2,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-olditalic.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 4,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-oldpersian.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-oldsoutharabian.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 2,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-oldturkic.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-osmanya.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 245,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "calt",
+        "ccmp",
+        "fina",
+        "init",
+        "medi"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-phagspa.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 5,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-phoenician.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 35,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 2,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "mark"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-rejang.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 4,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-runic.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 47,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 21,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "calt",
+        "dist",
+        "mark",
+        "mkmk"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-samaritan.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 42,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 4,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "dist",
+        "mark"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-saurashtra.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-shavian.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 49,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 9,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "dist",
+        "mark",
+        "mkmk"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-sundanese.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 58,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 3,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "dlig",
+        "mark",
+        "mkmk"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-sylotinagri.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 1475,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-symbols.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 17,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 3,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "mark"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-tagalog.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 15,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 2,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "mark"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-tagbanwa.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 2,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-taile.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 123,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 24,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "dist",
+        "mark",
+        "mkmk"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-taitham.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 65,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 2,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "mark"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-taiviet.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 64,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "abvs",
+        "akhn",
+        "dist",
+        "half",
+        "haln",
+        "kern",
+        "psts",
+        "subs",
+        "sups"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-tamil.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 50,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 30,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "mark",
+        "salt"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-thaana.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 93,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 12,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "ccmp",
+        "mark",
+        "mkmk"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-tifinagh.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 10,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-ugaritic.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 61,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-vai.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 694,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotosans/zotosans-yi.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 4,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "kern",
+        "liga"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotoserif/zotoserif-armenian.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "kern"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotoserif/zotoserif-georgian.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 154,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "abvs",
+        "blwf",
+        "clig",
+        "liga",
+        "pref",
+        "pstf"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotoserif/zotoserif-khmer.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 79,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "liga",
+        "rlig"
+      ],
+      "is_variable": false,
+      "license_bucket": "apache",
+      "path": "corpus/apache/zotoserif/zotoserif-lao.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 8,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "cc0",
+      "path": "corpus/cc0/baar/baar.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 618,
+        "axis_markers": 1,
+        "builder_markers": 0,
+        "component_markers": 1034,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 3,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "aalt",
+        "cpsp",
+        "liga",
+        "locl",
+        "salt"
+      ],
+      "is_variable": true,
+      "license_bucket": "cc0",
+      "path": "corpus/cc0/cosm/cosm-italic-var.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 684,
+        "axis_markers": 1,
+        "builder_markers": 0,
+        "component_markers": 1167,
+        "glyph_containers": 1,
+        "hint_markers": 3,
+        "image_markers": 0,
+        "kerning_markers": 3,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "aalt",
+        "cpsp",
+        "liga",
+        "locl"
+      ],
+      "is_variable": true,
+      "license_bucket": "cc0",
+      "path": "corpus/cc0/cosm/cosm-var.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 11,
+        "glyph_containers": 1,
+        "hint_markers": 99,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "kern"
+      ],
+      "is_variable": false,
+      "license_bucket": "cc0",
+      "path": "corpus/cc0/deco/deco.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 15,
+        "glyph_containers": 1,
+        "hint_markers": 99,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "kern"
+      ],
+      "is_variable": false,
+      "license_bucket": "cc0",
+      "path": "corpus/cc0/medi/medi.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 4,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "cc0",
+      "path": "corpus/cc0/ocra/ocra.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "kern"
+      ],
+      "is_variable": false,
+      "license_bucket": "cc0",
+      "path": "corpus/cc0/pixa/pixa.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 348,
+        "axis_markers": 1,
+        "builder_markers": 0,
+        "component_markers": 507,
+        "glyph_containers": 1,
+        "hint_markers": 390,
+        "image_markers": 0,
+        "kerning_markers": 3,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "cpsp",
+        "liga"
+      ],
+      "is_variable": true,
+      "license_bucket": "cc0",
+      "path": "corpus/cc0/plum/plum-var.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 36,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "cc0",
+      "path": "corpus/cc0/star/star.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 137,
+        "glyph_containers": 1,
+        "hint_markers": 195,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "cpsp",
+        "kern",
+        "liga"
+      ],
+      "is_variable": false,
+      "license_bucket": "cc0",
+      "path": "corpus/cc0/veni/veni.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 8,
+        "glyph_containers": 1,
+        "hint_markers": 99,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "kern"
+      ],
+      "is_variable": false,
+      "license_bucket": "cc0",
+      "path": "corpus/cc0/vize/vize.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-cleaning-paths.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 8,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-curve-tension.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-curve-types.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 2,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-delta-filter-final.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-delta-filter-start.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-diacritic-height.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-exclusion.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 1,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 44,
+        "image_markers": 0,
+        "kerning_markers": 2,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": true,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-family-starter-instances.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 22,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-family-starter.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 3,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 3,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-frankenfont.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 123,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-kerning-exceptions.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-letter-heights.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-making-overlaps.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-merging.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 1,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-minus-overlap.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-myfont-regular-2b.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-non-destructive-transform.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-ps-hinting.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 1,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 2,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-replacing-segments.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-reusing-shapes-1.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 22,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-setting-up-italics.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-sidebearings.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 1,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 3,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": true,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-slant.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-smoothing-out-rough-h.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 18,
+        "axis_markers": 2,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 18,
+        "image_markers": 0,
+        "kerning_markers": 8,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": true,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-style-groups.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 1,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 2,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": true,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-weight-axis.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 4,
+        "axis_markers": 2,
+        "builder_markers": 0,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 4,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": true,
+      "license_bucket": "fontlab-eula",
+      "path": "corpus/fontlab-eula/cal-width-axis.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 7116,
+        "axis_markers": 4,
+        "builder_markers": 0,
+        "component_markers": 10400,
+        "glyph_containers": 1,
+        "hint_markers": 660,
+        "image_markers": 0,
+        "kerning_markers": 25,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "aalt",
+        "ccmp",
+        "dlig",
+        "dnom",
+        "frac",
+        "liga",
+        "locl",
+        "numr",
+        "ordn",
+        "salt",
+        "sinf",
+        "ss01",
+        "subs",
+        "sups"
+      ],
+      "is_variable": true,
+      "license_bucket": "ofl",
+      "path": "corpus/ofl/club/club-var.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 2739,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 4996,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "aalt",
+        "calt",
+        "ccmp",
+        "locl",
+        "mark",
+        "rlig",
+        "smcp",
+        "subs",
+        "sups"
+      ],
+      "is_variable": false,
+      "license_bucket": "ofl",
+      "path": "corpus/ofl/ptit/ptit.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 5364,
+        "axis_markers": 2,
+        "builder_markers": 0,
+        "component_markers": 12952,
+        "glyph_containers": 1,
+        "hint_markers": 1,
+        "image_markers": 0,
+        "kerning_markers": 4,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "aalt",
+        "c2sc",
+        "calt",
+        "case",
+        "cpsp",
+        "dlig",
+        "dnom",
+        "frac",
+        "liga",
+        "lnum",
+        "locl",
+        "numr",
+        "onum",
+        "ordn",
+        "pnum",
+        "smcp",
+        "ss03",
+        "subs",
+        "sups",
+        "tnum",
+        "zero"
+      ],
+      "is_variable": true,
+      "license_bucket": "ofl",
+      "path": "corpus/ofl/rafi/rafi-italic-var.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 3370,
+        "axis_markers": 2,
+        "builder_markers": 0,
+        "component_markers": 13008,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 4,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "aalt",
+        "c2sc",
+        "calt",
+        "case",
+        "cpsp",
+        "dlig",
+        "dnom",
+        "frac",
+        "liga",
+        "lnum",
+        "locl",
+        "numr",
+        "onum",
+        "ordn",
+        "pnum",
+        "smcp",
+        "ss03",
+        "subs",
+        "sups",
+        "tnum",
+        "zero"
+      ],
+      "is_variable": true,
+      "license_bucket": "ofl",
+      "path": "corpus/ofl/rafi/rafi-var.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 30341,
+        "axis_markers": 4,
+        "builder_markers": 0,
+        "component_markers": 52668,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 36,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "aalt",
+        "c2sc",
+        "case",
+        "dnom",
+        "frac",
+        "locl",
+        "numr",
+        "ordn",
+        "pnum",
+        "salt",
+        "sinf",
+        "smcp",
+        "subs",
+        "sups",
+        "tnum",
+        "zero"
+      ],
+      "is_variable": true,
+      "license_bucket": "ofl",
+      "path": "corpus/ofl/scig/scig-var.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 87,
+        "axis_markers": 1,
+        "builder_markers": 1,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "aalt",
+        "c2sc",
+        "case",
+        "ccmp",
+        "cpsp",
+        "dlig",
+        "dnom",
+        "frac",
+        "liga",
+        "lnum",
+        "locl",
+        "numr",
+        "onum",
+        "ordn",
+        "pnum",
+        "salt",
+        "sinf",
+        "smcp",
+        "ss01",
+        "ss02",
+        "ss03",
+        "ss04",
+        "ss05",
+        "subs",
+        "sups",
+        "tnum"
+      ],
+      "is_variable": true,
+      "license_bucket": "ofl",
+      "path": "corpus/ofl/stroke-chan/stroke-chan.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 1,
+        "component_markers": 0,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [],
+      "is_variable": false,
+      "license_bucket": "ofl",
+      "path": "corpus/ofl/stroke-grot/stroke-grot.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 1251,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "c2sc",
+        "case",
+        "ccmp",
+        "frac",
+        "liga",
+        "lnum",
+        "locl",
+        "smcp",
+        "subs",
+        "sups"
+      ],
+      "is_variable": false,
+      "license_bucket": "ofl",
+      "path": "corpus/ofl/tiro/Castoro-Italic.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 0,
+        "axis_markers": 0,
+        "builder_markers": 0,
+        "component_markers": 1255,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 1,
+        "mask_markers": 1
+      },
+      "feature_tags": [
+        "c2sc",
+        "case",
+        "ccmp",
+        "frac",
+        "liga",
+        "lnum",
+        "locl",
+        "smcp",
+        "subs",
+        "sups"
+      ],
+      "is_variable": false,
+      "license_bucket": "ofl",
+      "path": "corpus/ofl/tiro/Castoro-Regular.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 3938,
+        "axis_markers": 1,
+        "builder_markers": 0,
+        "component_markers": 4666,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 2,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "c2sc",
+        "case",
+        "ccmp",
+        "cv01",
+        "cv02",
+        "cv03",
+        "dnom",
+        "frac",
+        "liga",
+        "locl",
+        "numr",
+        "onum",
+        "pnum",
+        "smcp",
+        "ss01",
+        "ss02",
+        "subs",
+        "sups"
+      ],
+      "is_variable": true,
+      "license_bucket": "ofl",
+      "path": "corpus/ofl/tiro/STIXTwoTextVF-Italic.vfj"
+    },
+    {
+      "counts": {
+        "anchor_markers": 3894,
+        "axis_markers": 1,
+        "builder_markers": 0,
+        "component_markers": 4608,
+        "glyph_containers": 1,
+        "hint_markers": 0,
+        "image_markers": 0,
+        "kerning_markers": 2,
+        "mask_markers": 0
+      },
+      "feature_tags": [
+        "c2sc",
+        "case",
+        "ccmp",
+        "cv01",
+        "cv02",
+        "cv03",
+        "dnom",
+        "frac",
+        "liga",
+        "locl",
+        "numr",
+        "onum",
+        "pnum",
+        "smcp",
+        "subs",
+        "sups"
+      ],
+      "is_variable": true,
+      "license_bucket": "ofl",
+      "path": "corpus/ofl/tiro/STIXTwoTextVF-Roman.vfj"
+    }
+  ],
+  "license_counts": {
+    "apache": 81,
+    "cc0": 11,
+    "fontlab-eula": 27,
+    "ofl": 11
+  },
+  "schema_profile": "strict-vfj-draft-2020-12",
+  "static_files": 114,
+  "total_files": 130,
+  "variable_files": 16
+}

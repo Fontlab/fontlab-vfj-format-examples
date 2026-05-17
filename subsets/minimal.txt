@@ -1,0 +1,5 @@
+corpus/cc0/baar/baar.vfj
+corpus/cc0/deco/deco.vfj
+corpus/cc0/medi/medi.vfj
+corpus/apache/cafe/cafe.vfj
+corpus/apache/fest/fest.vfj

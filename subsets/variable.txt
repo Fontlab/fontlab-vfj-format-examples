@@ -1,0 +1,12 @@
+corpus/apache/boto/boto-var.vfj
+corpus/cc0/cosm/cosm-var.vfj
+corpus/cc0/cosm/cosm-italic-var.vfj
+corpus/cc0/plum/plum-var.vfj
+corpus/ofl/club/club-var.vfj
+corpus/ofl/rafi/rafi-var.vfj
+corpus/ofl/rafi/rafi-italic-var.vfj
+corpus/ofl/scig/scig-var.vfj
+corpus/ofl/tiro/STIXTwoTextVF-Italic.vfj
+corpus/ofl/tiro/STIXTwoTextVF-Roman.vfj
+corpus/fontlab-eula/cal-weight-axis.vfj
+corpus/fontlab-eula/cal-width-axis.vfj
