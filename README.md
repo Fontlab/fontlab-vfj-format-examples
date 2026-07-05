@@ -60,6 +60,10 @@ python scripts/run_subset.py variable --schema /path/to/vfj.bundle.schema.json
 # Generate feature-coverage metadata for CI dashboards or downstream planning.
 python scripts/generate_coverage_report.py --output feature-coverage.json
 
+# Rebuild the generated manifests (file list + human-readable corpus index).
+python scripts/generate_file_list.py
+python scripts/generate_corpus_index.py
+
 # Run an external parity command once downstream tools provide baselines.
 python scripts/parity_test.py "my-parity-tool --input {vfj}" --output parity-results.json
 ```
@@ -67,6 +71,18 @@ python scripts/parity_test.py "my-parity-tool --input {vfj}" --output parity-res
 `generate_coverage_report.py` derives mechanical coverage metadata from VFJ content.
 Curated descriptions and authoritative parity baselines still need FontLab product-team
 input.
+
+`vfj-files.txt`, `feature-coverage.json`, and `docs/corpus-index.md` are all
+**generated** — never hand-edit them. The scripts above rewrite them, and CI
+fails if they drift from the corpus. When you add a font, rerun the generators
+and bump `EXPECTED_FILE_COUNT` in `tests/test_corpus_integrity.py`. See
+[`docs/adding-fonts.md`](docs/adding-fonts.md) for the full checklist.
+
+## Documentation
+
+Full docs live in [`docs/`](docs/) (a Jekyll + Just the Docs site): corpus
+overview, how to use it as a test fixture, validation and subsets, adding a
+font, and the per-file [corpus index](docs/corpus-index.md).
 
 ## Format Information
 
@@ -100,23 +116,38 @@ python validate.py --schema /path/to/fontlab-vfj-file-format-spec/schema/vfj.bun
 
 # Or via the VFJ_SCHEMA environment variable:
 VFJ_SCHEMA=/path/to/vfj.bundle.schema.json python validate.py
-
-# Requirements:
-pip install jsonschema referencing
-# or:
-pip install -r requirements.txt
 ```
+
+Dependencies are pinned in `pyproject.toml`; use `uv` for a reproducible env:
+
+```bash
+uv sync
+VFJ_SCHEMA=/path/to/vfj.bundle.schema.json uv run pytest
+```
+
+`requirements.txt` is retained for pip-only users (`pip install -r requirements.txt`).
 
 `validate.py` exits 0 when all VFJ files pass strict validation, 1 on validation
 failures, and 2 if the schema cannot be found.
 
+### Test suite
+
+`uv run pytest` runs two files: `tests/test_corpus_integrity.py` (file count,
+JSON parse-ability, and generated-manifest freshness — green without the private
+schema) and `tests/test_schema_conformance.py` (strict schema pass, which skips
+unless `VFJ_SCHEMA` or a sibling spec checkout is present).
+
 ### CI
 
-A GitHub Actions workflow (`.github/workflows/validate.yml`) runs strict corpus
-validation on every push or pull request that touches the corpus, validator,
-manifest, dependency list, or workflow. The workflow clones the private spec repo
-using a `SPEC_REPO_TOKEN` secret; if that secret is absent, validation is skipped
-with an explicit notice rather than silently running against a stale schema.
+A GitHub Actions workflow (`.github/workflows/validate.yml`) runs on every push
+or pull request that touches the corpus, scripts, tests, manifests, or workflow.
+It has two jobs with actions pinned to commit SHAs:
+
+- **integrity** — always runs. Confirms the generated manifests are current and
+  runs the schema-independent corpus-integrity tests.
+- **schema** — clones the private spec repo via a `SPEC_REPO_TOKEN` secret and
+  runs strict validation. If the secret is absent, it skips with an explicit
+  notice rather than silently running against a stale schema.
 
 ### Schema drift status
 

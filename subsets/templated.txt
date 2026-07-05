@@ -1,0 +1,8 @@
+# Templated VFJ fixtures.
+#
+# Intentionally empty. This manifest reserves a slot for VFJ files that use
+# FontLab's templating / shape-builder features (parametric elements driven by
+# template definitions). No redistributable templated font has been added to
+# the corpus yet. scripts/run_subset.py treats an empty manifest as "nothing to
+# validate" and exits 0, so this file is safe to leave comment-only until real
+# fixtures land. When you add one, list its corpus-relative path below.

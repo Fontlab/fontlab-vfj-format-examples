@@ -1,0 +1,16 @@
+# this_file: docs/_config.yml
+# Jekyll + Just the Docs (remote theme) configuration for the corpus site.
+title: VFJ Format Examples
+description: A 130-font corpus of real-world .vfj files — test fixtures for the VFJ schema and parsers.
+remote_theme: just-the-docs/just-the-docs
+
+color_scheme: light
+search_enabled: true
+
+# GitHub Pages renders from this directory; keep asset links relative.
+aux_links:
+  "View on GitHub":
+    - "https://github.com/Fontlab/fontlab-vfj-format-examples"
+
+plugins:
+  - jekyll-remote-theme

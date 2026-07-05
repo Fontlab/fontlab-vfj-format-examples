@@ -1,0 +1,32 @@
+# this_file: pyproject.toml
+# Tooling manifest for the VFJ format-examples corpus.
+#
+# This is a data/fixture repository, not an installable package. The manifest
+# exists only to pin the validator's runtime dependencies and the pytest
+# harness reproducibly under `uv`.
+
+[project]
+name = "fontlab-vfj-format-examples"
+version = "0"
+description = "Corpus of real-world .vfj font files used as VFJ schema and parser test fixtures."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    # jsonschema >= 4.18 bundles the `referencing` package needed for
+    # draft-2020-12 ($schema: https://json-schema.org/draft/2020-12/schema).
+    "jsonschema>=4.18",
+    "referencing>=0.28",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+
+[tool.uv]
+# Nothing to build or install; this repo only runs scripts against the corpus.
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
